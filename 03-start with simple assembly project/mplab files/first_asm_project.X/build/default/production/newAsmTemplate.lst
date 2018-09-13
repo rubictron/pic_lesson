@@ -1,0 +1,66 @@
+MPASM 5.71                NEWASMTEMPLATE.ASM   9-12-2018  4:30:41         PAGE  1
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
+Warning[205]: Found directive in column 1. (org)
+                      00001 org 00h
+Warning[207]: Found label after column 1. (count)
+  00000008            00002     count equ 08h
+                      00003    ;setup
+0000   1683           00004    bsf 03h,5 ;use bank 1
+0001   3000           00005    movlw 00h;set w = 00000000
+Message[302]: Register in operand not in bank 0.  Ensure that bank bits are correct.
+0002   0085           00006    movwf 85h;set TRISA=w=00000000
+0003   1283           00007    bcf 03h,5;return to use bank 0
+                      00008    
+                      00009    ;our loop start here
+Warning[207]: Found label after column 1. (start)
+0004                  00010    start
+                      00011    
+0004   3001           00012    movlw 01h;set w = 00000001
+0005   0085           00013    movwf 05h;set PORTA=w=00000001 RA0=1
+                      00014    
+0006   2???           00015    call delay
+                      00016    
+0007   3002           00017    movlw 02h
+0008   0085           00018    movwf 05h ;set PORTA = 00000010 RA1=1
+                      00019    
+0009   2???           00020    call delay
+                      00021    
+000A   3004           00022    movlw 04h
+000B   0085           00023    movwf 05h ;set RA2=1
+                      00024    
+000C   2???           00025    call delay
+                      00026    
+000D   2???           00027    goto start
+                      00028    
+Warning[207]: Found label after column 1. (delay)
+000E                  00029     delay 
+Warning[207]: Found label after column 1. (loop)
+000E   0B88           00030     loop decfsz count,1
+000F   2???           00031     goto loop
+0010   0008           00032     return
+                      00033     
+                      00034     
+                      00035     
+Warning[205]: Found directive in column 1. (end)
+                      00036 end
+MPASM 5.71                NEWASMTEMPLATE.ASM   9-12-2018  4:30:41         PAGE  2
+
+
+SYMBOL TABLE
+  LABEL                             VALUE 
+
+__16F84A                          00000001
+count                             00000008
+delay                             0000000E
+loop                              0000000E
+start                             00000004
+
+Errors   :     0
+Warnings :     6 reported,     0 suppressed
+Messages :     1 reported,     0 suppressed
+
+

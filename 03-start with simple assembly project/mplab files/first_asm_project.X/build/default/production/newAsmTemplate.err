@@ -1,0 +1,7 @@
+Warning[205] E:\MPLAB\FIRST_ASM_PROJECT.X\NEWASMTEMPLATE.ASM 1 : Found directive in column 1. (org)
+Warning[207] E:\MPLAB\FIRST_ASM_PROJECT.X\NEWASMTEMPLATE.ASM 2 : Found label after column 1. (count)
+Message[302] E:\MPLAB\FIRST_ASM_PROJECT.X\NEWASMTEMPLATE.ASM 6 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Warning[207] E:\MPLAB\FIRST_ASM_PROJECT.X\NEWASMTEMPLATE.ASM 10 : Found label after column 1. (start)
+Warning[207] E:\MPLAB\FIRST_ASM_PROJECT.X\NEWASMTEMPLATE.ASM 29 : Found label after column 1. (delay)
+Warning[207] E:\MPLAB\FIRST_ASM_PROJECT.X\NEWASMTEMPLATE.ASM 30 : Found label after column 1. (loop)
+Warning[205] E:\MPLAB\FIRST_ASM_PROJECT.X\NEWASMTEMPLATE.ASM 36 : Found directive in column 1. (end)
