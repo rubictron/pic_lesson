@@ -1,0 +1,129 @@
+[p LITE_MODE AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4580 ]
+[d frameptr 4065 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"20 C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"19 E:\pic lesson\06-Serial Communication UART\mplab\pic18f4580.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"1 E:\pic lesson\06-Serial Communication UART\mplab\pic18f4580.X\uart.h
+[v _UART_Init UART_Init `(uc  1 e 1 0 ]
+"33
+[v _UART_Read UART_Read `(uc  1 e 1 0 ]
+"40
+[v _UART_Read_Text UART_Read_Text `(v  1 e 1 0 ]
+"47
+[v _UART_Write UART_Write `(v  1 e 1 0 ]
+"53
+[v _UART_Write_Text UART_Write_Text `(v  1 e 1 0 ]
+"26771 C:\Program Files (x86)\Microchip\xc8\v1.40\include\pic18f4580.h
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"28937
+[v _TXREG TXREG `VEuc  1 e 1 @4013 ]
+"28948
+[v _RCREG RCREG `VEuc  1 e 1 @4014 ]
+"28959
+[v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
+"33593
+"33593
+[v _BRGH BRGH `VEb  1 e 0 @32098 ]
+"33699
+[v _CREN CREN `VEb  1 e 0 @32092 ]
+"34609
+[v _RCIF RCIF `VEb  1 e 0 @31989 ]
+"36343
+[v _SPEN SPEN `VEb  1 e 0 @32095 ]
+"36395
+[v _SYNC SYNC `VEb  1 e 0 @32100 ]
+"36567
+[v _TRISC6 TRISC6 `VEb  1 e 0 @31910 ]
+"36569
+[v _TRISC7 TRISC7 `VEb  1 e 0 @31911 ]
+"36593
+[v _TRMT TRMT `VEb  1 e 0 @32097 ]
+"37307
+[v _TXEN TXEN `VEb  1 e 0 @32101 ]
+"37385
+[v _nRBPU nRBPU `VEb  1 e 0 @32655 ]
+"19 E:\pic lesson\06-Serial Communication UART\mplab\pic18f4580.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"28
+[v main@a a `[5]uc  1 a 5 30 ]
+"36
+} 0
+"53 E:\pic lesson\06-Serial Communication UART\mplab\pic18f4580.X\uart.h
+[v _UART_Write_Text UART_Write_Text `(v  1 e 1 0 ]
+{
+"55
+[v UART_Write_Text@i i `i  1 a 2 5 ]
+"53
+[v UART_Write_Text@text text `*.35uc  1 p 2 1 ]
+"58
+} 0
+"47
+[v _UART_Write UART_Write `(v  1 e 1 0 ]
+{
+[v UART_Write@data data `uc  1 a 1 wreg ]
+[v UART_Write@data data `uc  1 a 1 wreg ]
+[v UART_Write@data data `uc  1 a 1 0 ]
+"51
+} 0
+"40
+[v _UART_Read_Text UART_Read_Text `(v  1 e 1 0 ]
+{
+"43
+[v UART_Read_Text@i_51 i `i  1 a 2 4 ]
+"40
+[v UART_Read_Text@Output Output `*.39uc  1 p 2 0 ]
+[v UART_Read_Text@length length `ui  1 p 2 2 ]
+"45
+} 0
+"33
+[v _UART_Read UART_Read `(uc  1 e 1 0 ]
+{
+"38
+} 0
+"1
+[v _UART_Init UART_Init `(uc  1 e 1 0 ]
+{
+"3
+[v UART_Init@x x `ui  1 a 2 26 ]
+"1
+[v UART_Init@baudrate baudrate `Cl  1 p 4 14 ]
+"22
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+{
+"11
+[v ___aldiv@quotient quotient `l  1 a 4 10 ]
+"12
+[v ___aldiv@sign sign `uc  1 a 1 9 ]
+[v ___aldiv@counter counter `uc  1 a 1 8 ]
+"8
+[v ___aldiv@dividend dividend `l  1 p 4 0 ]
+[v ___aldiv@divisor divisor `l  1 p 4 4 ]
+"42
+} 0

@@ -1,1 +1,1 @@
-Message[302] E:\MPLAB\USE_HEADER.X\HEADER.INC 12 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] E:\PIC LESSON\04-USE HEADER FILE AND MACRO IN ASSEMBLY\MPLAB FILES\USE_HEADER.X\MAIN.ASM 6 : Register in operand not in bank 0.  Ensure that bank bits are correct.
